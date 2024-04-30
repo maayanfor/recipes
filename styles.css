@@ -1,0 +1,26 @@
+body.homepage {
+  text-align: center;
+  background-image: url("images/food.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paragraph {
+  display: inline-block;
+  background-color: #FEC89A;
+  padding: 50px;
+}
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.page {
+  background-color: #F8EDEB;
+}

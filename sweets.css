@@ -1,0 +1,31 @@
+body.homepage {
+    text-align: center;
+    background-image: url("images/food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10%;
+}
+
+.grid-item img {
+    max-width: 100%;
+
+    object-fit: cover;
+    height: 100%;
+}
+
+.grid-item {
+    object-fit: cover;
+    background-color: wheat;
+    border: 1px solid #ccc;
+}
+
+
+.main-title {
+    margin-bottom: 5%;
+}
